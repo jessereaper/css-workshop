@@ -4,3 +4,13 @@
   height: 59px;
   border-radius: 100%;
 }
+
+.borderimg{
+  height: 220px;
+  width: 220px;
+  position: relative;
+  background-image: url(images/d.jpg);
+  padding: 50px;
+  background-clip: padding-box;
+
+}
