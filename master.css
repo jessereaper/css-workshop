@@ -1,16 +1,35 @@
-.border-radius{
+.border-radius {
   border: blue groove 12px;
   width: 59px;
   height: 59px;
   border-radius: 100%;
 }
 
-.borderimg{
+.borderimg {
   height: 220px;
   width: 220px;
-  position: relative;
   background-image: url(images/d.jpg);
   padding: 50px;
   background-clip: padding-box;
+}
 
+.wrap {
+  width: 120px;
+  overflow-wrap: break-word;
+  background: darkgreen;
+  color: orange;
+}
+
+.great {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  background: repeating-radial-gradient(rgba(255, 255, 255, 0), red 30%, blue 20%, orange 20%);
+  background: -webkit-repeating-radial-gradient(rgba(255, 255, 255, 0), red 30%);
+  background: repeating-radial-gradient(rgba(255, 255, 255, 0), red 30%);
+  background: repeating-radial-gradient(rgba(255, 255, 255, 0), red 30%);
+  border-width: 20px;
+  border-style: solid;
+  border-image: linear-gradient(grey,black,red);
+  border-image-slice: 1;
 }
