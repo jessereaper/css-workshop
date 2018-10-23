@@ -33,3 +33,17 @@
   border-image: linear-gradient(grey,black,red);
   border-image-slice: 1;
 }
+
+.tran{
+  background-color: red;
+  background: repeating-radial-gradient(rgba(255, 255, 255, 0), red 30%, blue 20%, orange 20%);
+  width: 50px;
+  height: 50px;
+  transition: height 2s, width 5s, transform 5s;
+}
+
+.tran:hover{
+  height: 100px;
+  width: 100px;
+  transform: rotate(400deg);
+}
